@@ -10,19 +10,15 @@ The requested features were:
 
 *I added an extra feature to add new user.*
 
-## Language and dependencies:
+## Language:
 - Python3
-- Django
-- Django Rest Framework
-- Vue CLI
-- Bootstrap
-- Axios
-- jquery
-- ...
+- JavaScript
+- HTML5
+- CSS3
 
 ## Install
 
-### Install Django
+### Install Django + dependencies
 - Fork and clone the project.
 - Create a python virtual environnement in the fresh cloned directory: `python3 -m venv <your venv name>`
 - Activate it: `source <your venv name>/bin/activate`.
@@ -30,8 +26,8 @@ The requested features were:
 - Migrate: `./manage.py migrate`.
 - You can populate database with some fake data: `./manage.py loadata fake_data.json`.
 
-### Install Vue CLI
-- `npm install -g @vue/cli`
+### Install Vue CLI + dependencies
+- In vue-demo directory: `sudo npm install` (admin privileges required!)
 
 ## Run
 - Run django server at port 8080: in the root of the project `./manage.py runserver 8080`.
